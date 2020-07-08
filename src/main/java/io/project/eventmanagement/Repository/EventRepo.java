@@ -9,4 +9,4 @@ import java.util.List;
 
 @Repository
 @Transactional
-public interface EventRepo extends CrudRepository<Event , Integer> {}
+public interface EventRepo extends CrudRepository<Event , Integer> { }
